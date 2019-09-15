@@ -11,9 +11,15 @@
   "scripts": {
     "start": "node ./bin/www",
     "test": "NODE_ENV=test jest",
+    "test-unit": "jest --testRegex .test.js$",
+    "test-specs": "jest --testRegex .spec.js$",
     "watch-test": "NODE_ENV=test jest --watch",
     "dev": "nodemon ./bin/www",
     "livereload": "livereload ./src -w 2500 -d"
+  },
+
+  "jest": {
+
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
