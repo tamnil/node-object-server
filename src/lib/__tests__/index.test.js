@@ -1,66 +1,14 @@
 const utils = require("../../lib");
-const axios = require("axios");
 const config = require("../../../config");
 
 // mock objects
 const math = require("mathjs");
-
 const testObj = {
   func: x => x,
   obj: {}
 };
 
 const PI = Math.PI;
-const URL = `${config.HOST_URL}:${config.HOST_PORT}`
-const testUrlSin1 = `${URL}/math/sin/?value=1`; // sin(x)
-const testUrlSin2val = `${config.HOST_URL}:${config.HOST_PORT}/math/sin/?value=1&value=2`; // sin(x)
-// const testUrl2 = "http://localhost:3000/api/asdf";
-const testUrlExample = "http://localhost:3000/examples";
-
-
-
-describe("e - function", () => {
-  test("examples", async done => {
-    await axios.get(testUrlExample + '/fun/?value=2').then(res => {
-    const data = res.data
-      expect(res.status).toBe(200);
-      expect(res.data.returnValue).toBe()
-      // expect()
-// console.log(res.)
-      console.log(res.data, "xval");
-    });
-
-    done();
-  });
-});
-
-
-
-describe("example - function", () => {
-  test("examples", async done => {
-    await axios.get(testUrlExample + '/fun').then(res => {
-    const data = res.data
-      expect(res.status).toBe(200);
-      expect(res.data.returnValue).toBe()
-      // expect()
-// console.log(res.)
-      console.log(res.data, "xval");
-    });
-
-    done();
-  });
-});
-
-describe("ROUTES", () => {
-  test("routes", async done => {
-    await axios.get(testUrlSin1).then(res => {
-      const data = res.data;
-      expect(res.status).toBe(200);
-      expect(res.data.returnValue).toBe();
-    });
-    done();
-  });
-});
 
 describe("", () => {
   test("initial sanity test", done => {
