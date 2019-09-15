@@ -1,27 +1,33 @@
 {
   "name": "node-object-server",
   "version": "0.0.4",
+  "author": "Tamnil Saito Junior  <tamnil@gmail.com>",
+  "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tamnil/node-object-server"
+  },
   "scripts": {
     "start": "node ./bin/www",
     "test": "NODE_ENV=test jest",
     "watch-test": "NODE_ENV=test jest --watch",
     "dev": "nodemon ./bin/www",
-    "livereload": "livereload ./src -w 2000 -d"
+    "livereload": "livereload ./src -w 2500 -d"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
     "dotenv": "^8.1.0",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "livereload": "^0.8.0",
     "lodash": "^4.17.15",
     "mathjs": "^6.2.1",
-    "morgan": "~1.9.1",
-    "nodemon": "^1.19.2"
+    "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "debug": "~2.6.9",
+    "livereload": "^0.8.0",
+    "nodemon": "^1.19.2",
     "axios": "^0.19.0",
     "jest": "^24.9.0"
   }
