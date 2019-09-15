@@ -3,6 +3,17 @@
   [![Build Status](https://travis-ci.org/tamnil/node-object-server.svg?branch=master)](https://travis-ci.org/tamnil/node-object-server)
 
 ## Under construction
+
+https://www.npmjs.com/package/node-object-server
+
+https://github.com/tamnil/node-object-server
+
+https://tamnil.github.io/node-object-server/
+
+https://travis-ci.org/tamnil/node-object-server
+
+[a ToDo List](todo.md)
+
 - prototipacao rapida
 
 
