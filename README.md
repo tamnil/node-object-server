@@ -4,20 +4,20 @@
 - prototipacao rapida
 
 
-O projeto importa diretamente o modulo escolhido, disponibilizando suas saidos permitidas em modules.exports.
+O projeto importa diretamente o modulo escolhido, disponibilizando suas saidas permitidas em modules.exports.
 
 estrutura:
+a estrutura da url obedece a formacao do modulo, metodos e objetos carregados
+
 
 funcao:
 
 /classe/metodo/metodo/...?value=valores da funcao
 
-/mathjs/sin?value=2
-
-
 
 
 scripts de inicializacao
+```javascript
   "scripts": {
     "start": "node ./bin/www",
     "test": "NODE_ENV=test jest",
@@ -25,3 +25,5 @@ scripts de inicializacao
     "dev": "nodemon ./bin/www",
     "livereload": "livereload ./src -w 2500 -d"
   },
+  
+ ```
