@@ -12,7 +12,7 @@ https://tamnil.github.io/node-object-server/
 
 https://travis-ci.org/tamnil/node-object-server
 
-[a ToDo List](todo.md)
+[a ToDo List](TODO.md)
 
 - prototipacao rapida
 
