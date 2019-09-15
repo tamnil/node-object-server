@@ -1,5 +1,7 @@
 # NODE-OBJECT-SERVER
 
+  [![Build Status](https://travis-ci.org/tamnil/node-object-server.svg?branch=master)](https://travis-ci.org/tamnil/node-object-server)
+
 ## Under construction
 - prototipacao rapida
 
