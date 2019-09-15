@@ -1,5 +1,5 @@
 {
-  "name": "object-server",
+  "name": "node-object-server",
   "version": "0.0.1",
   "private": false,
   "scripts": {
