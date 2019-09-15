@@ -10,6 +10,8 @@ https://github.com/tamnil/node-object-server
 
 https://tamnil.github.io/node-object-server/
 
+https://travis-ci.org/tamnil/node-object-server
+
 
 
 - prototipacao rapida
