@@ -22,19 +22,19 @@
 
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "dotenv": "^8.1.0",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "lodash": "^4.17.15",
-    "mathjs": "^6.2.1",
-    "morgan": "~1.9.1"
+    "cookie-parser": "~1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "~4.17.1",
+    "http-errors": "~1.8.0",
+    "lodash": "^4.17.20",
+    "mathjs": "^7.2.0",
+    "morgan": "~1.10.0"
   },
   "devDependencies": {
-    "debug": "~2.6.9",
-    "livereload": "^0.8.0",
-    "nodemon": "^1.19.2",
-    "axios": "^0.19.0",
-    "jest": "^24.9.0"
+    "debug": "~4.1.1",
+    "livereload": "^0.9.1",
+    "nodemon": "^2.0.4",
+    "axios": "^0.20.0",
+    "jest": "^26.4.2"
   }
 }
