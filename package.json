@@ -17,10 +17,7 @@
     "dev": "nodemon ./bin/www",
     "livereload": "livereload ./src -w 2500 -d"
   },
-
-  "jest": {
-
-  },
+  "jest": {},
   "dependencies": {
     "cookie-parser": "~1.4.5",
     "dotenv": "^8.2.0",
